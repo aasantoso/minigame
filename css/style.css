@@ -1,0 +1,30 @@
+body {
+  background-image: url(../src/bg.jpg);
+}
+
+#mainBoard {
+  -webkit-order: #999 1px solid;
+  -ms-order: #999 1px solid;
+  order: #999 1px solid;
+  width: 800px;
+  height: 600px;
+  padding: 24px;
+  margin: 0px auto;
+}
+
+#mainBoard > div {
+  background: url(../src/card.jpg) no-repeat;
+  border: #000 1px solid;
+  width: 130px;
+  height: 130px;
+  float: left;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 30px;
+  margin-left: 34px;
+  font-size: 90px;
+  font-family: 'Playfair Display', serif;
+
+  cursor: pointer;
+  text-align: center;
+}
